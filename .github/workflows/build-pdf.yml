@@ -34,6 +34,14 @@ jobs:
           unzip -q /tmp/SourceHanSerifTW.zip -d "$HOME/.local/share/fonts/SourceHanSerifTW"
           fc-cache -fv
 
+          # annotate-equations.sty is not in apt — install from CTAN
+          TMPDIR=$(mktemp -d)
+          curl -L "https://mirrors.ctan.org/macros/latex/contrib/annotate-equations.zip" -o "$TMPDIR/annotate-equations.zip"
+          unzip -q "$TMPDIR/annotate-equations.zip" -d "$TMPDIR/annotate-equations"
+          mkdir -p "$HOME/.local/share/texmf/tex/latex/annotate-equations"
+          cp "$TMPDIR/annotate-equations/annotate-equations/"*.sty "$HOME/.local/share/texmf/tex/latex/annotate-equations/"
+          mktexlsr "$HOME/.local/share/texmf"
+
       - name: Build PDF
         run: make
 
