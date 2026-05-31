@@ -1,8 +1,64 @@
+# Build output
+target/
+main.pdf
+
+# Distribution artifacts
 *.zip
 
 # LaTeX auxiliary files
 *.aux
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
 
-# Build output
-target/
-main.pdf
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Index auxiliary files
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# Cross-reference files
+*.xref
+
+# Glossary files
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Hyperref
+*.brf
+
+# LaTeX logs
+*.log
+*.out
+
+# SyncTeX
+*.synctex.gz
+*.synctex.gz(busy)
+
+# Editor / OS
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
