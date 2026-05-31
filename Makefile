@@ -18,7 +18,9 @@ $(MAIN).pdf: $(MAIN).tex | $(BUILDDIR)
 	cp $(BUILDDIR)/$(MAIN).pdf $(MAIN).pdf
 
 $(BUILDDIR):
-	mkdir -p $(BUILDDIR)/chapters/範本 $(BUILDDIR)/chapters/生成式AI對教育體系的衝擊 $(BUILDDIR)/forward
+	mkdir -p $(BUILDDIR)
+	@for d in chapters/*/; do mkdir -p "$(BUILDDIR)/$$d"; done
+	mkdir -p $(BUILDDIR)/forward
 
 view: $(MAIN).pdf
 	xdg-open $(MAIN).pdf 2>/dev/null &
