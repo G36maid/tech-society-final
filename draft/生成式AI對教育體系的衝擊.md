@@ -30,7 +30,25 @@
 
 ## 二、議題簡介：時事案例 *詠傑*
 
-*(待補)*
+二〇二六年四月，美國普渡大學（Purdue University）資訊工程學系爆發了一起震驚全美學術界的事件。該系核心必修課程「CS240 系統程式設計（Systems Programming）」的授課教師 Jeffrey Turkstra 副教授，透過其參與開發並於 2022 年發表於電腦科學教育領域頂尖國際會議 SIGCSE 的程式碼追蹤系統「EnCourse」[1]，向班上超過兩百名學生發出學術誠信違規（Academic Integrity Violation）的指控電子郵件[2][3]。
+
+這封電子郵件的時機與內容引發了極大的爭議。Turkstra 選擇在該學期的「退選截止日（Withdrawal Deadline）」當天寄出此信，要求被指控的學生填寫一份 Google 表單，自行坦白在哪幾份作業中使用了生成式 AI 工具，並警告若未於限期內回覆，可能面臨課程成績不及格（F）及學務處（Office of the Dean of Students）的進一步調查與懲處[2][3]。更引發學生恐慌的是，信中並未告知每位學生具體是哪一份作業觸發了系統的警報，學生必須在缺乏具體資訊的情況下自行認罪，形同將舉證責任完全轉嫁給學生[2][4]。
+
+郵件在學生社群中引發了大規模恐慌。根據《Lafayette Journal & Courier》（USA TODAY Network）的報導，超過半數的學生選擇在截止日前緊急退選課程[3]。消息迅速在網路社群擴散，累積了數千則討論，引起了校園報紙《The Purdue Exponent》及主流新聞媒體的關注[2][3]。在強烈的輿論壓力與學務處的行政介入下，Turkstra 於四月二十日的課堂上宣布了全面的政策撤回：過往所有作業的 AI 作弊指控一律撤銷，認罪表單收集的資料全數作廢，已退選的學生可無條件重新加選[2]。
+
+Turkstra 在課堂上展示了課程數據，指出使用 AI 完成作業的學生在實體閉卷考試中的成績，比親自完成作業的學生平均低了百分之十至十五，佐證其在基礎課程中限制 AI 使用的教學立場[2]。然而，全面撤銷指控也帶來了新的道德困境。Turkstra 坦言：「我們有許多投入大量心血、沒有作弊的學生，現在卻只能眼睜睜看著部分作弊的同學安然脫身且不用承擔任何後果。對此，我無法給出一個滿意的答案。」[2]
+
+這起事件精準地折射出生成式 AI 對教育體系帶來的多重衝擊：在技術層面，自動化偵測工具的準確性與誤判問題亟待解決；在教學層面，基礎課程中應否禁止使用 AI 工具、以及如何重新設計評量方式，成為教育工作者必須面對的核心課題；在制度層面，程序正義與學術誠信之間的平衡，在 AI 時代面臨前所未有的挑戰。這些問題，也正是本報告希望從不同角度深入探討的焦點。
+
+**參考文獻**
+
+[1] Rodriguez-Rivera, G., Turkstra, J. A., Buckmaster, J. M., LeClainche, K. A., Montgomery, S. K., Reed, W. J., Sullivan, R. P., & Lee, J. B. (2022). Tracking large class projects in real-time using fine-grained source control. *Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE 2022)*, 565–570. https://doi.org/10.1145/3478431.3499389
+
+[2] Arun, A. (2026, April 21). AI panic causes campus uproar. *The Purdue Exponent*. https://www.purdueexponent.org/campus/general_news/ai-panic-causes-campus-uproar/article_fdb604d1-206a-4883-bbe1-fe7631a2e083.html
+
+[3] 'Cheating scandal' in Purdue class sparks debate over AI's place in college. (2026, April 20). *Lafayette Journal & Courier* (USA TODAY Network). https://www.jconline.com/story/news/local/purdue/2026/04/20/cheating-scandal-in-purdue-class-sparks-debate-over-ais-place-in-college/89703861007/
+
+[4] Bailey, J. (2026, April 22). Cheating allegations lead to chaos at Purdue University. *Plagiarism Today*. https://www.plagiarismtoday.com/2026/04/22/cheating-allegations-lead-to-chaos-at-purdue-university/
 
 ---
 
