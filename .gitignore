@@ -1,1 +1,8 @@
 *.zip
+
+# LaTeX auxiliary files
+*.aux
+
+# Build output
+target/
+main.pdf
