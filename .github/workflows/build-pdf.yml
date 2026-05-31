@@ -30,6 +30,7 @@ jobs:
           # Source Han Serif TW is not in apt — download from Adobe's release
           curl -L -o /tmp/SourceHanSerifTW.zip \
             https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/15_SourceHanSerifTW.zip
+          mkdir -p "$HOME/.local/share/fonts"
           unzip -q /tmp/SourceHanSerifTW.zip -d "$HOME/.local/share/fonts/SourceHanSerifTW"
           fc-cache -fv
 
