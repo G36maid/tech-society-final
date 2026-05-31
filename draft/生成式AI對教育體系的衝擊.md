@@ -54,7 +54,35 @@ Turkstra 在課堂上展示了課程數據，指出使用 AI 完成作業的學�
 
 ## 三、現況分析：政府的指引 *詠傑*
 
-*(待補)*
+面對生成式 AI 帶來的教育衝擊，各國政府與國際組織紛紛制定政策指引，試圖在擁抱科技創新與維護學術品質之間取得平衡。聯合國教科文組織（UNESCO）於二〇二四年八月正式發布了《學生人工智慧素養架構》（AI Competency Framework for Students），為全球教育體系提供了首份標準化的 AI 能力參考藍圖 [1]。根據 UNESCO 的調查，截至二〇二二年，全球僅有十一個國家正式制定並核定 K-12 AI 課程綱要，另有四個國家正在研發中 [2]，凸顯了教育體系採用新技術的速度遠落後於科技發展的全球性危機。UNESCO 的素養架構並未將 AI 教育窄化為單純的程式設計或軟體操作教學，而是建構了一套由「四個核心維度」與「三個漸進階層」交織而成的十二項素養矩陣 [1]。四個維度涵蓋了「以人為本的心智模式」、「人工智慧倫理」、「AI 技術與應用」以及「AI 系統設計」；三個漸進階層則從「理解（Understand）」出發，經由「應用（Apply）」，最終達到「創造（Create）」的精熟水準。架構的核心精神在於強調人類主體性（Human Agency）與當責性（Accountability）：即使 AI 系統提供了看似權威的建議，人類依然擁有最終的決策權，並必須為 AI 產出的內容承擔完全責任 [1]。
+
+在國內方面，臺灣教育部因應生成式 AI 的快速發展，陸續更新了《中小學使用生成式人工智慧注意事項》至 2.1 版，並依據不同學習階段的認知發展特徵，編製了兩套學習應用手冊：針對國小學生的《我和 AI 一起學》以及針對國高中學生的《駕馭 AI，洞察未來：數位公民的必修課》[3]。國小版手冊以「5W1H」架構引導學童建立對 AI 的基礎認知與自我保護意識，強調不洩露個人隱私資料、辨識 AI 幻覺（Hallucination）等核心觀念；國高中版則將教育目標提升至培養「AI 共學力」，強調操作技能精進、批判性內容查核與倫理反思 [3]。在高等教育層面，各大專校院也紛紛發布校內指引。以國立臺灣師範大學為例，其教學發展中心公布的《生成式 AI 之學習應用及參考指引》明確列出五大核心倫理面向——公平性、隱私與資料保護、透明與可解釋性、責任歸屬、以及人機界線與原創性——並要求師生在使用 AI 時必須進行自我揭露，清楚標註 AI 參與的範疇，同時鼓勵各教學單位依學門特性自訂更細緻的規範 [4]。
+
+跨國比較則揭示了各國在政策取向上的顯著差異。日本文部科學省於二〇二四年十二月發布了《初等中等教育段階生成式 AI 利活用ガイドライン（Ver. 2.0）》，展現了最為審慎的立場 [5]。該指引強調不應統一禁止或強制使用 AI，而是應評估其使用是否有助於課程綱要所揭示的素養與能力培育；但同時也明確警告，過度依賴 AI 可能導致學生對 AI 生成答案的「盲目接受」，進而對「思考力、判斷力與表達力」的發展造成不利影響 [5]。英國教育部（DfE）的《Generative Artificial Intelligence (AI) in Education》政策文件則採取了「雙軌制」策略：一方面大力鼓勵教師端使用 AI 以減輕行政負擔（如課程規劃、回饋生成），甚至資助 Oak National Academy 開發了 AI 教學助理工具「Aila」[6]；另一方面則要求學校在使用任何 AI 工具前必須進行全面的風險評估，嚴格遵守資料保護法與《在學校中維護兒童安全（Keeping Children Safe in Education）》的法定責任，並關注深度偽造（Deepfakes）等新興風險 [6]。美國教育部教育技術辦公室於二〇二三年五月發布的《Artificial Intelligence and the Future of Teaching and Learning》報告則將視角拉高至社會公平層面 [7]。該報告明確提出 AI 應「增強人類智能而非取代人類」，強調必須保持「人類在迴路（Human-in-the-loop）」的核心原則，並聚焦管理「演算法偏見」的風險——因為 AI 系統開發過程中可能導致模式偵測的偏差與自動化決策的不公，進而邊緣化弱勢群體 [7]。
+
+新加坡則展現了最為積極的擁抱姿態。根據經濟合作暨發展組織（OECD）二〇二四年「教與學國際調查」（TALIS）的數據，新加坡高達百分之七十五的中學教師已在教學中常態化使用 AI，遠超 OECD 百分之三十六的平均水準 [8]。新加坡教育部提出了「高信任、高接觸、高科技」的教育框架，將 AI 定位為實現「有效班級規模為一」（即高度個人化學習）的關鍵工具，同時堅持人類教師在社會情感教育中的不可替代性 [8]。在高教端，新加坡國立大學（NUS）制定了嚴謹的生成式 AI 使用規範，確立了「使用者須對 AI 生成的所有內容負完全責任，而非 AI 工具本身」的核心原則，並要求學生在提交作業時必須揭露使用的 AI 工具名稱、使用方式及具體貢獻範圍 [9]。
+
+綜觀各國政策，可以發現若干高度一致的共識：第一，AI 不應取代人類的判斷與決策，教育者與學習者必須保持「人類在迴路」的主體地位；第二，所有允許 AI 參與的場景，皆以「強制揭露」與「人類負完全責任」為前提；第三，各國普遍認知到，教育體系不應僅停留在「防堵 AI」的消極立場，而應積極建構系統性的 AI 素養教育。然而，在開放程度與監管強度上，各國仍有顯著分歧，這也反映了不同文化底蘊、教育體制與國家科技發展戰略的深層差異。這些官方指引為教育現場提供了原則性框架，但實際的執行成效與師生的真實態度，仍需要透過實證調查來進一步驗證。
+
+**參考文獻**
+
+[1] UNESCO. (2024). *AI Competency Framework for Students*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000391105_eng
+
+[2] UNESCO. (2022). *K-12 AI curricula: A mapping of government-endorsed AI curricula*. UNESCO. https://www.unesco.org/en/articles/k-12-ai-curricula-mapping-government-endorsed-ai-curricula
+
+[3] 教育部. (2024). 中小學生成式 AI 之學習應用手冊《我和 AI 一起學》及《駕馭 AI，洞察未來：數位公民的必修課》. https://www.fhsh.tp.edu.tw/news/教育部中小學生成式ai之學習應用手冊-我和ai一起學及駕馭ai洞察未來/
+
+[4] 國立臺灣師範大學教學發展中心. (2025). 生成式 AI 之學習應用及參考指引. https://ctld.ntnu.edu.tw/generative_ai
+
+[5] 文部科学省. (2024). 初等中等教育段階における生成AIの利活用に関するガイドライン（Ver.2.0）. https://www.mext.go.jp/a_menu/other/mext_02412.html
+
+[6] Department for Education. (2023, updated 2025). *Generative artificial intelligence (AI) in education*. GOV.UK. https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education
+
+[7] Office of Educational Technology, U.S. Department of Education. (2023). *Artificial Intelligence and the Future of Teaching and Learning: Insights and Recommendations*. https://tech.ed.gov/files/2023/05/ai-future-of-teaching-and-learning-report.pdf
+
+[8] Singapore Ministry of Education. (2025, October 7). Singapore teachers embrace digital technologies and benefit from strong professional development: OECD TALIS 2024 study. https://www.moe.gov.sg/news/press-releases/20251007-singapore-teachers-embrace-digital-technologies-and-benefit-from-strong-professional-development-oecd-talis-2024-study
+
+[9] National University of Singapore. (2024). Academic integrity guidelines on generative AI. https://libguides.nus.edu.sg/new2nus/acadintegrity
 
 ---
 
