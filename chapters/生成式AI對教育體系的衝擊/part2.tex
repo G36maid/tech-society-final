@@ -1,0 +1,177 @@
+\subsection{教師的觀點}\label{sec:教師觀點}
+
+（待補）
+
+\section{文獻回顧：實徵研究的發現}\label{sec:文獻回顧}
+
+為了解 AI 融入教育的影響，此部分針對10篇近期AI融入教育之實徵研究進行進一步分析與比較。考量第二部分調查結果，中小學師生最常使用之 AI 軟體為 GPT 與 Gemini，因此本部分亦聚焦於已將 GPT 或 Gemini 等\textbf{開放式免費大型語言模型融入教學}之相關研究進行探討。此外，進一步將文獻回顧範疇限定於\textbf{程式學習領域}，以了解 AI 是否能協助學生解決電腦相關問題，研究對象涵蓋中小學生至大學生。
+
+分析面向則包含實驗對象（人數與年齡）、AI型態、AI角色（如如何融入程式學習）、探討變項，以及研究結果與討論等層面進行整理與比較。
+
+\subsection{文獻名稱與編碼}\label{sec:文獻名稱}
+
+\begin{longtable}{p{0.18\textwidth} p{0.72\textwidth}}
+\toprule
+編碼 & 文章名稱 \\
+\midrule
+\endfirsthead
+\toprule
+編碼 & 文章名稱 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{2}{r}{續下頁} \\
+\endfoot
+\bottomrule
+\endlastfoot
+\cite{cao2023chatbots} & Cao, C. C., Ding, Z., Lin, J., \& Hoffgartner, F. (2023). AI Chatbots As multi-role pedagogical agents: Transforming engagement in CS education. \textit{arXiv Preprint} arXiv:2308.03992. \\
+\cite{fan2025pair} & Fan, G., Liu, D., Zhang, R., \& Ran, L. (2025). The impact of AI-assisted pair programming on student motivation, programming anxiety, collaborative learning, and programming performance: a comparative study with traditional pair programming and individual approaches. \textit{International Journal of STEM Education}, 12(1), 16. \\
+\cite{groothuijsen2024chatbots} & Groothuijsen, S., van den Beemt, A., Remmers, J. C., \& van Meeuwen, L. W. (2024). AI chatbots in programming education: Students' use in a scientific computing course and consequences for learning. \textit{Computers and Education: Artificial Intelligence}, 7, 100290. \\
+\cite{llerena2024introductory} & Llerena-Izquierdo, J., Mendez-Reyes, J., Ayala-Carabajo, R., \& Andrade-Martinez, C. (2024). Innovations in introductory programming education: The role of AI with Google Colab and Gemini. \textit{Education Sciences}, 14(12), 1330. \\
+\cite{omeh2025pbl} & Omeh, C. B., Ayanwale, M. A., Mnguni, L. E., \& Olelewe, C. J. (2025). Fostering programming skill and critical thinking through AI-assisted PBL integration. \textit{Journal of New Approaches in Educational Research,} 14(1), 22. \\
+\cite{yan2025llm} & Yan, Y. M., Chen, C. Q., Hu, Y. B., \& Ye, X. D. (2025). LLM-based collaborative programming: impact on students' computational thinking and self-efficacy. \textit{Humanities and Social Sciences Communications}, 12(1), 1-12. \\
+\cite{kohen2025integrating} & Kohen-Vacs, D., Usher, M., \& Jansen, M. (2025). Integrating generative AI into programming education: Student perceptions and the challenge of correcting AI errors. \textit{International Journal of Artificial Intelligence in Education}, 1-19. \\
+\cite{yang2025chatgpt} & Yang, T. C., Hsu, Y. C., \& Wu, J. Y. (2025). The effectiveness of ChatGPT in assisting high school students in programming learning: evidence from a quasi-experimental research. \textit{Interactive Learning Environments}, 1-18. \\
+\cite{tang2025enhancing} & Tang, B., Liang, J., Hu, W., \& Luo, H. (2025). Enhancing programming performance, learning interest, and self-efficacy: The role of large language models in middle school education. \textit{Systems}, 13(7), 555. \\
+\cite{cubillos2025generative} & Cubillos, C., Mellado, R., Cabrera-Paniagua, D., \& Urra, E. (2025). Generative artificial intelligence in computer programming: Does it enhance learning, motivation, and the learning environment? \textit{IEEE Access.} \\
+\end{longtable}
+
+\subsection{實驗對象（人數、年齡）、AI型態與角色}\label{sec:實驗對象}
+
+\begin{longtable}{p{0.13\textwidth} p{0.10\textwidth} p{0.18\textwidth} p{0.16\textwidth} p{0.31\textwidth}}
+\toprule
+文章 & 人數 & 年齡 & AI型態 & AI角色與功能 \\
+\midrule
+\endfirsthead
+\toprule
+文章 & 人數 & 年齡 & AI型態 & AI角色與功能 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{續下頁} \\
+\endfoot
+\bottomrule
+\endlastfoot
+\cite{cao2023chatbots} & 200位 & 電腦科學碩士課程碩士生 & GPT-4 & 指導機器人、同儕機器人、職涯諮詢、情感支持 \\
+\cite{fan2025pair} & 234位 & 大學生 & GPT-3.5 / Claude & 即時回饋、個人化協助、雙人程式設計即時建議、解釋概念 \\
+\cite{groothuijsen2024chatbots} & 29位 & 機械工程與物理碩士生 & ChatGPT-3 / 3.5 & 解釋程式碼、解決方案、生成程式碼、檢查錯誤與除錯、概念理解、優化程式碼、解決數學問題 \\
+\cite{llerena2024introductory} & 250位 & 程式設計課程大學生 & Google Colab & 個別化支持、演算法資源 \\
+\cite{omeh2025pbl} & 62位 & 二年級電腦科學教育大學生 & Google Gemini & 即時回饋、生成演算法、優化程式碼、除錯任務、後設認知反思、錯誤解釋並建議、強化自主學習 \\
+\cite{yan2025llm} & 85位 & 六和七年級的學生 & GPT-4 & 結構化鷹架、問題化鷹架、知識型鷹架 \\
+\cite{kohen2025integrating} & 211名 & 大學生 & ChatGPT / GitHub Copilot & 學習夥伴、即時支援工具、學習鷹架、自動化助手 \\
+\cite{yang2025chatgpt} & 153位 & 高二年級學生 & ChatGPT & 語法澄清、除錯、提供概念解釋 \\
+\cite{tang2025enhancing} & 103位 & 七年級中學生 & iFLYTEK Spark & 個人化指導、即時回饋、智慧學習夥伴 \\
+\cite{cubillos2025generative} & 40位 & 大學生 & Google Gemini 1.5 & 回答概念性和技術性問題 \\
+\end{longtable}
+
+\subsection{探討變因、研究結果與討論}\label{sec:探討變因}
+
+\begin{longtable}{p{0.10\textwidth} p{0.21\textwidth} p{0.30\textwidth} p{0.27\textwidth}}
+\toprule
+代碼 & 探討變因 & 結果 & 討論 \\
+\midrule
+\endfirsthead
+\toprule
+代碼 & 探討變因 & 結果 & 討論 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{續下頁} \\
+\endfoot
+\bottomrule
+\endlastfoot
+\cite{cao2023chatbots} & 探討AI回答的品質：準確性與流暢性、同理心與參與度、相關性與連貫性 & AI能夠提供準確且類似人類的回答；AI對於高認知水準的問題展現出更高的參與度與同理心；AI生成的回答與學生的問題相關且連貫 & AI 聊天機器人不僅能處理基礎問題，還能在學生進行更深入的探究式學習時，提供更有品質的互動和情感支持，進而達到更高的參與效果。 \\
+\cite{fan2025pair} & 探討學生使用AI的：內在動機、程式設計焦慮、程式設計成效、協作學習認知、社會臨場感 & 內在動機：AI組顯著高於個人組、與人類組的成果相當；程式設計焦慮：AI組的焦慮減少幅度顯著大於個人組；程式設計成效：AI組的表現略優於個人組和人類組；社會臨場感：人類組的協作認知最高且顯著高於 AI 組 & AI 輔助配對程式設計顯著提高了學生的內在動機，並大幅降低了程式設計焦慮，效果與人類與人類配對相當，可能歸因於AI非評判性和即時回饋特性。儘管 AI 輔助編程改善了協作認知，但它無法達到人類與人類配對達到的協作深度和社會臨場感，強調了 AI 支援與人際互動的互補優勢。 \\
+\cite{groothuijsen2024chatbots} & 學習成果、對科技的態度、教學活動的影響 & \textbf{學生和教師在 AI 影響學習方面的部分對立看法}：學生認為使用 ChatGPT 提升了他們的學習效果，讓他們寫出更簡潔的程式碼，並理解錯誤發生的原因。教師認為學生的程式作業整體品質不如往年，擔心學生過度依賴 ChatGPT，導致對學習的時間投入減少，而影響產出品質，僅對語法和語義學到了足夠的程度，對應用的學習不足。\textbf{學生和教師都同意使用 ChatGPT 對課程中的結對編程練習產生了負面影響}：學生只充當「驅動者」撰寫程式碼，並將 ChatGPT 用作「領航員」提供協助與反思，從而限制了他們與同儕之間的溝通和協作，教師觀察到團隊間的協作能力下降。 & 雖然 AI 機器人尚不能完全解決複雜的程式作業，但教學應更細緻地闡明哪些程式設計能力是學生必須掌握的，例如：更詳細的語法、語義、語用，以及哪些部分可以外包給 AI 工具。鑑於 AI 聊天機器人對協作的影響，必須進一步考慮是否以及如何維持結對編程原則。 \\
+\cite{llerena2024introductory} & 程式設計概念理解、學習複雜主題的難易度、對主題的興趣、學習程式設計的動機、滿足期望、超越期望 & AI能幫助程式設計概念理解 87\%（55\% 非常同意，32\% 同意）；AI能幫助學習複雜主題 89\%（47\% 非常同意，42\% 同意）；AI能幫助提升對主題的興趣 91\%（51\% 非常同意，40\% 同意）；AI能提升學習程式設計的動機 86\%（46\% 非常同意，40\% 同意）；AI能提升滿足學生的期望 90\%（46\% 非常同意，44\% 同意）；AI能超越學生的期望 91\%（49\% 非常同意，42\% 同意） & 對基本概念如向量和陣列，以及控制、選擇和重複結構的設計的理解產生顯著影響，有助於認知發展的過渡，對基本概念理解更好的學生，也傾向於更容易理解複雜主題。 \\
+\cite{omeh2025pbl} & 電腦程式設計能力、批判性思維能力、問題解決能力 & AI對程式設計能力有強烈的正向影響；AI 對批判性思維能力沒有顯著影響；AI 對問題解決能力沒有顯著影響 & AI能提升程式設計能力，但對批判性思維和問題解決能力未提升，學生對 AI 的過度依賴可能減少所需的認知努力。教學策略與學業能力之間存在顯著的交互作用，高學業能力的學生從程式設計教學中獲益更多。 \\
+\cite{yan2025llm} & 運算思維、程式設計自我效能、認知負荷、心智負荷、心智努力 & AI組顯著提升運算思維；程式設計自我效能無顯著差異；AI組顯著降低認知負荷；AI組顯著降低心智負荷；心智努力無顯著差異 & AI能提升運算思維以更快地解決問題；AI組認知負荷顯著降低；教師不應只專注於讓學生獲得單一解決方案，而應著重於培養學生向AI提問並獲取答案的能力。 \\
+\cite{kohen2025integrating} & 科技接受模型、任務類型 & AI組表現顯著低於傳統任務；使用AI時認知需求增加；AI知覺有用性高；AI能協助創意激發；強烈使用AI意願；對使用AI擔憂程度中等 & 雖然學生對 GenAI 抱持高度正面且熱情的看法，認為它能提升效率與創意；但在實際操作中，他們在面對 AI 生成的內容卻表現出明顯的困難。教育者在整合 GenAI 時，必須加強培養學生批判性評估與修正 AI 輸出內容的能力。 \\
+\cite{yang2025chatgpt} & 心流體驗、自我效能、學習成就 & AI組全部顯著低於控制組 & 一些學生表示他們寧願選擇傳統方法，認為老師解釋事情比 ChatGPT 更清楚，並且可以迅速回應學生。學生描述模糊或過於專業時，ChatGPT 可能難以有效回應，導致學生花費大量時間澄清問題而非解決問題。AI可能無法迅速評估學習者的理解程度並調整挑戰水準，這可能會破壞學習平衡。由於AI能夠持續產出解決方案，學習者可能傾向於將學習成功歸因於 AI，從而削弱了他們從解釋自身表現中獲得的自我效能。 \\
+\cite{tang2025enhancing} & 程式設計表現、學習興趣、自我效能 & 實踐分數：AI組實踐分數顯著高於傳統學習；認知興趣：AI組顯著高於傳統學習；自我效能：AI組顯著高於傳統學習 & 根據自我決定理論，AI透過開放式提問支持了學生的自主性，透過即時回饋增強了他們的能力感，並透過持續互動培養了關聯性，從而提升內在動機。互動鼓勵學生考慮多種解決方案，並探索超出規定課程的高級概念，刺激了程式設計知識的轉移和更深層次的理解。AI類似於一個隨時可用的動態鷹架，支援學生建立精通經驗和內在學習動機。 \\
+\cite{cubillos2025generative} & 學習成效、感知能力、感知選擇/自主性、感知努力、感知壓力/緊張、感知實用性/價值 & 學習成效：無顯著差異；感知能力：無顯著差異；感知選擇/自主性：AI組顯著增加；感知努力：AI組顯著減少；感知壓力/緊張：AI組顯著減少；感知實用性/價值：無顯著差異 & AI組顯著提高了學生對感知自主性的認知，影片學習法顯著提高了自我效能，AI顯著減少了學生感知到的努力和壓力。AI組和影片這兩種方法各自具有獨特的優勢可以互補，教師可以考慮結合使用 AI組和教育影片。 \\
+\end{longtable}
+
+\subsection{(一) AI的角色}\label{sec:AI角色}
+
+\begin{longtable}{p{0.14\textwidth} p{0.18\textwidth} p{0.18\textwidth} p{0.18\textwidth} p{0.18\textwidth}}
+\toprule
+\multicolumn{5}{l}{\textbf{AI角色類型}} \\
+\midrule
+項目 & 1. 導師與支持 & 2. 回饋與協助 & 3. 程式與除錯 & 4. 學習與合作 \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{l}{\textbf{AI角色類型}} \\
+\midrule
+項目 & 1. 導師與支持 & 2. 回饋與協助 & 3. 程式與除錯 & 4. 學習與合作 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{續下頁} \\
+\endfoot
+\bottomrule
+\endlastfoot
+功能 & 概念澄清、職涯諮詢、鷹架（結構、問題）、情感支持 & 即時回饋、個別化內容/難度、加強概念理解、解釋程式碼、語法澄清 & 解決/生成程式碼、支援演算法、優化程式碼、除錯任務、解決複雜問題 & 結對程式設計、協助同儕配對、促進後設認知反思、使用者介面增強提示、強化自主學習、參與度監測 \\
+文章 & \cite{cao2023chatbots,yan2025llm,kohen2025integrating,tang2025enhancing,cubillos2025generative} (5篇) & \cite{fan2025pair,llerena2024introductory,omeh2025pbl,kohen2025integrating,yang2025chatgpt,tang2025enhancing} (6篇) & \cite{fan2025pair,groothuijsen2024chatbots,llerena2024introductory,omeh2025pbl,kohen2025integrating,yang2025chatgpt} (6篇) & \cite{fan2025pair,omeh2025pbl,kohen2025integrating} (3篇) \\
+\end{longtable}
+
+綜整十篇文獻後發現，AI在教育情境中的角色大致可歸納為四種類型。第一類為導師與支持者，主要協助學生進行概念澄清、提供職涯諮詢、回應結構性問題以及情感支持；第二類為回饋與協助者，著重於提供即時回饋、依學生需求調整內容與難度、加強概念理解，以及協助程式碼與語法修正；第三類為程式與除錯助手，能協助生成與修正程式碼、支援演算法設計、優化程式效能及解決複雜技術問題；第四類則為學習與合作夥伴，透過協助程式設計、促進同儕配對、引導後設認知反思、提供適時提示以及監測學習參與度，支持學生的自主學習與合作學習歷程。整體而言，文獻顯示AI的角色已不僅限於知識提供工具，而是逐漸朝向兼具教學支持、學習回饋、技術協助及學習夥伴等多元功能發展，其中以回饋協助與程式除錯相關功能最為常見，反映AI在提升學習效率與解決學習問題方面的重要價值。
+
+\subsection{(二) 優缺點比較}\label{sec:優缺點比較}
+
+\begin{longtable}{p{0.14\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth}}
+\toprule
+\multicolumn{7}{l}{\textbf{優勢}} \\
+\midrule
+類別 & 成效提升 & 焦慮下降 & 幫助理解 & 降低認知負荷 & 提升認知參與度 & 提升自我效能 \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{l}{\textbf{優勢}} \\
+\midrule
+類別 & 成效提升 & 焦慮下降 & 幫助理解 & 降低認知負荷 & 提升認知參與度 & 提升自我效能 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{7}{r}{續下頁} \\
+\endfoot
+\bottomrule
+\endlastfoot
+文章 & \cite{fan2025pair,groothuijsen2024chatbots,llerena2024introductory,omeh2025pbl,kohen2025integrating,tang2025enhancing} & \cite{fan2025pair} & \cite{cao2023chatbots,groothuijsen2024chatbots,llerena2024introductory,tang2025enhancing} & \cite{yan2025llm} & \cite{cao2023chatbots,kohen2025integrating} & \cite{yan2025llm,tang2025enhancing,cubillos2025generative} \\
+\end{longtable}
+
+\begin{longtable}{p{0.14\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth} p{0.12\textwidth}}
+\toprule
+\multicolumn{7}{l}{\textbf{劣勢}} \\
+\midrule
+類別 & 協作學習認知低 & 低社會臨場感 & 協作能力下降 & 降低學習心流 & 任務表現下降 & 自我效能下降 \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{l}{\textbf{劣勢}} \\
+\midrule
+類別 & 協作學習認知低 & 低社會臨場感 & 協作能力下降 & 降低學習心流 & 任務表現下降 & 自我效能下降 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{7}{r}{續下頁} \\
+\endfoot
+\bottomrule
+\endlastfoot
+文章 & \cite{fan2025pair,groothuijsen2024chatbots} & \cite{fan2025pair} & \cite{groothuijsen2024chatbots} & \cite{yang2025chatgpt} & \cite{kohen2025integrating} & \cite{yang2025chatgpt} \\
+\end{longtable}
+
+綜整十篇文獻後發現，AI融入教學整體上展現出多項正向效益。在優勢方面，最常被提及的是\textbf{提升程式設計成效}，相關研究指出AI能協助學習者理解程式概念、改善程式品質及提升問題解決能力\cite{fan2025pair,groothuijsen2024chatbots,llerena2024introductory,omeh2025pbl,kohen2025integrating,tang2025enhancing}。此外，AI亦有助於\textbf{理解複雜問題}\cite{cao2023chatbots,groothuijsen2024chatbots,llerena2024introductory,tang2025enhancing}、\textbf{提升自我效能}\cite{yan2025llm,tang2025enhancing,cubillos2025generative}及\textbf{提高認知參與度}\cite{cao2023chatbots,kohen2025integrating}，使學習者在面對學習任務時更具信心與投入感。部分研究亦指出，AI能降低程式設計焦慮\cite{fan2025pair}及認知負荷\cite{yan2025llm}，進而提升學習效率與學習體驗。
+
+然而，文獻亦揭示AI融入教學可能帶來許多負面影響。在協作學習情境中，部分研究發現學生可能因過度依賴AI而出現\textbf{協作學習認知降低}\cite{fan2025pair,groothuijsen2024chatbots}及\textbf{協作能力下降}\cite{groothuijsen2024chatbots}的情形；同時，AI的介入亦可能降低學習者的學習心流\cite{yang2025chatgpt}與社會臨場感\cite{fan2025pair}，影響人際互動與合作品質。此外，有研究指出AI目前仍難以即時且精準地評估學習者的理解程度\cite{yang2025chatgpt}，並可能造成部分學生自我效能下降\cite{yang2025chatgpt}。
+
+\cite{kohen2025integrating,yang2025chatgpt}兩篇研究皆指出，雖然學生普遍肯定AI在學習上的便利性與支持功能，但其應用仍可能帶來若干负面影響。首先，\textbf{學生在修正大型語言模型（LLM）生成的程式碼時，往往面臨比傳統程式任務更大的挑戰}，原因在於AI產生的錯誤通常較為隱晦且複雜，需要較高層次的程式知識與除錯能力才能辨識與修正。此外，部分學生認為教師的解說較AI清楚且更具即時互動性，\textbf{當學生提出模糊或過於專業的問題時，AI可能無法準確理解需求，反而增加釐清問題所耗費的時間}。AI難以像教師一樣即時評估學習者的理解程度並調整教學內容與難度，可能出現內容過於簡單或過於複雜的情況，影響學習效果\cite{yang2025chatgpt}。
+
+綜合而言，兩篇研究顯示AI雖能提供有效的學習支援，但若缺乏適當引導與使用策略，仍可能對學生的自主學習、問題解決能力及學習信心產生負面影響\cite{kohen2025integrating,yang2025chatgpt}。AI融入教學雖能有效提升學習成效與學習支持，但是否會讓學生過度依賴及對協作互動的影響仍值得進一步探討，未來應在發揮AI輔助功能與維持學生自主學習及人際互動之間取得平衡。
+
+\section{組員立場：我們的觀點}\label{sec:組員立場}
+
+\subsection{慶霖（贊成）}\label{sec:慶霖}
+
+我認為AI應融入教學中，因為AI的發展可能彌補在教學現場許多重複性的工作，也能為個別化教學帶來更進一步的發展，雖然現在AI仍有許多問題存在，現今也還沒有一套具體且正確的使用方式指引，但是若因此而拒絕使用的話，則沒辦法對AI有進一步的了解，任何的教育科技都有其優缺點，但是隨著時間發展，透過經驗與實徵研究人們更知道不同的科技如何用於適合的學習科目上，而生成式AI目前融入教學的時間仍在探索階段，需要更多的研究以及教學設計來實證。我認為AI的能夠帶來比過去更好的教學成效，然而也必須多付出一份心力在於如何避免學生過度依賴的問題，從教學現場的角度我認為可以先從減少重複性的工作來幫助教師，因應現在台灣教師工作量多且繁雜的問題，AI可以幫助教師減少許多在備課或是批改作業上的付出，在AI融入教學的設計上也更應該注重相關實徵研究中指出的問題，以減少AI幫助學生完成任務但是學生卻自己沒有學習到的問題。
