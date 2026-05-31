@@ -1,0 +1,67 @@
+\documentclass[]{book}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{pgf-pie}
+\usepackage{tikz}
+\usepackage{pgfplots}
+ \usepackage{comment}
+
+
+\usepackage{annotate-equations}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs} 
+%\usepackage{float}
+
+%\usepackage[semicolon,round,sort&compress,sectionbib]{natbib}  %
+%\usepackage{chapterbib}
+\usepackage[backend=biber, refsegment=chapter, defernumbers=true,style=ieee]{biblatex}
+\addbibresource{references.bib}
+%\bibliographystyle{ieeetr}
+
+\usepackage{luatexja-fontspec}
+\setmainjfont{Noto Sans CJK TC}
+\newjfontfamily\sung{TW-Sung}
+
+
+\title{
+{\Huge 科技始終來自於人性？}\\
+「科技系統與社會發展」期末報告集
+}
+\author{授課教師：紀博文 }
+
+\renewcommand{\contentsname}{目錄}
+\linespread{1.5}
+\renewcommand{\bibname}{參考文獻}
+
+\makeatletter
+\newcommand{\chapterauthor}[1]{%
+  {\parindent0pt\vspace*{-25pt}%
+  \linespread{1.1}\large\scshape#1%
+  \par\nobreak\vspace*{35pt}}
+  \@afterheading%
+}
+\makeatother
+
+\begin{document}
+
+\maketitle
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+
+%\include{forward/forward.tex}
+
+\mainmatter
+
+\include{chapters/範本/test.tex}
+
+
+\backmatter
+
+\end{document}
