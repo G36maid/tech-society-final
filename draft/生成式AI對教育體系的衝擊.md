@@ -314,7 +314,37 @@ AI幫助我們的生活更便利，讓我們可以不用付出相等的努力就
 
 ### (三) 國家的AI使用指引
 
-*(待補)*
+面對生成式 AI 對教育體系的衝擊，臺灣亟需整合國際政策經驗，制定具體且具可操作性的國家級使用指引。本報告結合跨國政策比較與本土調查，提出以下五大核心政策建議：
+
+第一，**建立分齡分層的 AI 素養教育體系**。我國應以教育部現行的《我和 AI 一起學》與《駕馭 AI，洞察未來》手冊為基礎[2]，結合聯合國教科文組織（UNESCO）的「理解、應用、創造」三階段漸進模式[1]，建構系統化素養指標。國小階段著重於辨識 AI 幻覺與隱私保護；國高中階段強調批判性查核與共學；高等教育則專注於高階提示詞工程與倫理責任。
+
+第二，**重構評量機制，轉向過程驗證**。為避免如美國普渡大學因 AI 偵測軟體誤判而引發的校園信任危機[3]，評量機制必須從「結果導向」轉為「過程導向」。各級學校應減少回家作業的分數比重，並效法全國中小學科展的口頭答辯機制[4]，透過即席問答與實作演示，確認學生真正內化知識，而非僅是複製 AI 的產出。
+
+第三，**落實強制揭露與使用者追責制度**。在學術與競賽中，應確立「創意歸屬人類，勞務外包 AI」的原則。參考新加坡國立大學的當責要求[5]與旺宏科學獎的作法[6]，強制要求學生在提交作業時，必須完整保留並揭露與 AI 協作的提示詞軌跡（Prompt Logs），且使用者須對所有產出內容負起最終責任。
+
+第四，**推動教師賦能與系統性培訓**。借鑑英國教育部的雙軌策略[7]與新加坡高達百分之七十五的教師 AI 使用率[8]，國家應提供系統性的教師培訓，協助教師使用 AI 工具減輕行政與備課負擔，並提升教師設計 AI 融入課程與評估學生 AI 使用軌跡的專業能力。
+
+第五，**強化風險評估與資料隱私保護**。在推動 AI 融入教學的同時，必須建立嚴格的安全防護網。參考英國教育部對網路監控與提示詞可見性的要求[7]，以及日本文部科學省對學生思考力低下的警示[9]，學校在導入 AI 工具前應進行全面的風險評估，確保學生隱私安全，並引導學生維持主體思考，避免盲目接受 AI 答案。
+
+**參考文獻**
+
+[1] UNESCO. (2024). *AI Competency Framework for Students*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000391105_eng
+
+[2] 教育部. (2024). *中小學生成式 AI 之學習應用手冊《我和 AI 一起學》及《駕馭 AI，洞察未來：數位公民的必修課》*. https://www.edu.tw/News_Content.aspx?n=9E7AC85F1954DDA8&s=785274C9C54578B3
+
+[3] Arun, A. (2026, April 21). AI panic causes campus uproar. *The Purdue Exponent*. https://www.purdueexponent.org/campus/general_news/ai-panic-causes-campus-uproar/article_fdb604d1-206a-4883-bbe1-fe7631a2e083.html
+
+[4] 國立中科實驗高級中學. (2025). *中華民國第65屆中小學科學展覽會補充規定事項*. https://www.nehs.tc.edu.tw/wp-content/uploads/sites/95/2025/05/%E3%80%8C%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AC%AC65%E5%B1%86%E4%B8%AD%E5%B0%8F%E5%AD%B8%E7%A7%91%E5%AD%B8%E5%B1%95%E8%A6%BD%E6%9C%83%E3%80%8D%E9%87%8D%E8%A6%81%E8%A3%9C%E5%85%85%E8%A6%8F%E5%AE%9A.pdf
+
+[5] National University of Singapore. (2024). *Academic integrity guidelines on generative AI*. https://libguides.nus.edu.sg/new2nus/acadintegrity
+
+[6] 旺宏教育基金會. (2025). *旺宏科學獎競賽辦法*. https://www.mxic.org.tw/
+
+[7] Department for Education. (2023, updated 2025). *Generative artificial intelligence (AI) in education*. GOV.UK. https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education
+
+[8] Singapore Ministry of Education. (2025, October 7). *Singapore teachers embrace digital technologies and benefit from strong professional development: OECD TALIS 2024 study*. https://www.moe.gov.sg/news/press-releases/20251007-singapore-teachers-embrace-digital-technologies-and-benefit-from-strong-professional-development-oecd-talis-2024-study
+
+[9] 文部科学省. (2024). *初等中等教育段階における生成AIの利活用に関するガイドライン（Ver.2.0）*. https://www.mext.go.jp/a_menu/other/mext_02412.html
 
 ---
 
