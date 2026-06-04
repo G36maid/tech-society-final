@@ -15,6 +15,13 @@
 
 郵件在學生社群中引發了大規模恐慌。根據《Lafayette Journal \& Courier》（USA TODAY Network）的報導，超過半數的學生選擇在截止日前緊急退選課程\cite{lafayette2026cheating}。消息迅速在網路社群擴散，累積了數千則討論，引起了校園報紙《The Purdue Exponent》及主流新聞媒體的關注\cite{arun2026ai,lafayette2026cheating}。在強烈的輿論壓力與學務處的行政介入下，Turkstra 於四月二十日的課堂上宣布了全面的政策撤回：過往所有作業的 AI 作弊指控一律撤銷，認罪表單收集的資料全數作廢，已退選的學生可無條件重新加選\cite{arun2026ai}。
 
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{chapters/生成式AI對教育體系的衝擊/purdue-ai-panic.png}
+    \caption{美國普渡大學 CS240 課程因 AI 使用偵測引發校園爭議，顯示 AI 工具進入教育現場後，學術誠信、程序正義與評量方式必須被重新檢視。資料來源：\textit{The Purdue Exponent}\protect\cite{arun2026ai}。}
+    \label{fig:purdue-ai-panic}
+\end{figure}
+
 Turkstra 在課堂上展示了課程數據，指出使用 AI 完成作業的學生在實體閉卷考試中的成績，比親自完成作業的學生平均低了百分之十至十五，佐證其在基礎課程中限制 AI 使用的教學立場\cite{arun2026ai}。然而，全面撤銷指控也帶來了新的道德困境。Turkstra 坦言：「我們有許多投入大量心血、沒有作弊的學生，現在卻只能眼睜睜看著部分作弊的同學安然脫身且不用承擔任何後果。對此，我無法給出一個滿意的答案。」\cite{arun2026ai}
 
 這起事件精準地折射出生成式 AI 對教育體系帶來的多重衝擊：在技術層面，自動化偵測工具的準確性與誤判問題亟待解決；在教學層面，基礎課程中應否禁止使用 AI 工具、以及如何重新設計評量方式，成為教育工作者必須面對的核心課題；在制度層面，程序正義與學術誠信之間的平衡，在 AI 時代面臨前所未有的挑戰。這些問題，也正是本報告希望從不同角度深入探討的焦點。
@@ -23,11 +30,32 @@ Turkstra 在課堂上展示了課程數據，指出使用 AI 完成作業的學�
 
 面對生成式 AI 帶來的教育衝擊，各國政府與國際組織紛紛制定政策指引，試圖在擁抱科技創新與維護學術品質之間取得平衡。聯合國教科文組織（UNESCO）於二〇二四年正式發布了《學生人工智慧素養架構》（AI Competency Framework for Students），為全球教育體系提供了首份標準化的 AI 能力參考藍圖\cite{unesco2024competency}。根據 UNESCO 的調查，截至二〇二二年，全球僅有十一個國家正式制定並核定 K-12 AI 課程綱要，另有四個國家正在研發中\cite{unesco2022k12}，凸顯了教育體系採用新技術的速度遠落後於科技發展，已成為全球性的教育危機。UNESCO 的素養架構並未將 AI 教育窄化為單純的程式設計或軟體操作教學，而是建構了一套由「四個核心維度」與「三個漸進階層」交織而成的十二項素養矩陣\cite{unesco2024competency}。四個維度涵蓋了「以人為本的心智模式」、「人工智慧倫理」、「AI 技術與應用」以及「AI 系統設計」；三個漸進階層則從「理解（Understand）」出發，經由「應用（Apply）」，最終達到「創造（Create）」的精熟水準。架構的核心精神在於強調人類主體性（Human Agency）與當責性（Accountability）：即使 AI 系統提供了看似權威的建議，人類依然擁有最終的決策權，並必須為 AI 產出的內容承擔完全責任\cite{unesco2024competency}。
 
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{chapters/生成式AI對教育體系的衝擊/unesco-ai-competency.png}
+    \caption{UNESCO 於 2024 年發布《學生人工智慧素養架構》，將學生 AI 素養整理為四個核心維度與三個漸進層次，提供各國制定課程與能力指標時的參考。資料來源：UNESCO\protect\cite{unesco2024competency}。}
+    \label{fig:unesco-ai-competency}
+\end{figure}
+
 在國內方面，臺灣教育部因應生成式 AI 的快速發展，將《中小學使用生成式人工智慧注意事項》更新至 2.1 版，並依據不同學習階段的認知發展特徵，編製了兩套學習應用手冊：針對國小學生的《我和 AI 一起學》以及針對國高中學生的《駕馭 AI，洞察未來：數位公民的必修課》\cite{govtw2024aiguide}。國小版手冊以「5W1H」架構引導學童建立對 AI 的基礎認知與自我保護意識，強調不洩露個人隱私資料、辨識 AI 幻覺（Hallucination）等核心觀念；國高中版則將教育目標提升至培養「AI 共學力」，強調操作技能精進、批判性內容查核與倫理反思\cite{govtw2024aiguide}。在高等教育層面，各大專校院也紛紛發布校內指引。以國立臺灣師範大學為例，其教學發展中心公布的《生成式 AI 之學習應用及參考指引》明確列出五大核心倫理面向（公平性、隱私與資料保護、透明與可解釋性、責任歸屬以及人機界線與原創性），並要求師生在使用 AI 時必須進行自我揭露，清楚標註 AI 參與的範疇，同時鼓勵各教學單位依學門特性自訂更細緻的規範\cite{ntnu2025ai}。
+
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{chapters/生成式AI對教育體系的衝擊/moe-ai-guides.png}
+    \caption{教育部針對不同學習階段編製生成式 AI 學習應用手冊，反映臺灣政策已從單純限制工具使用，逐漸轉向建立學生 AI 素養與使用規範。資料來源：教育部相關公告\protect\cite{govtw2024aiguide}。}
+    \label{fig:moe-ai-guides}
+\end{figure}
 
 跨國比較則揭示了各國在政策取向上的顯著差異。日本文部科學省於二〇二四年十二月發布了《初等中等教育階段生成式 AI 使用指引（Ver. 2.0）》（初等中等教育段階における生成AIの利活用に関するガイドライン），展現了最為審慎的立場\cite{mext2024genai}。該指引強調不應統一禁止或強制使用 AI，而是應評估其使用是否有助於課程綱要所揭示的素養與能力培育，但同時也明確警告，過度依賴 AI 可能導致學生對 AI 生成答案的「盲目接受」，進而對「思考力、判斷力與表達力」的發展造成不利影響\cite{mext2024genai}。
 
 相較之下，英國教育部（DfE）的 \textit{Generative Artificial Intelligence (AI) in Education} 政策文件則採取了「雙軌制」策略：一方面大力鼓勵教師端使用 AI 以減輕行政負擔（如課程規劃、回饋生成），甚至資助 Oak National Academy 開發了 AI 教學助理工具「Aila」\cite{dfe2023genai}，另一方面則要求學校在使用任何 AI 工具前必須進行全面的風險評估，嚴格遵守資料保護法與《在學校中維護兒童安全》（\textit{Keeping Children Safe in Education}）的法定責任，並關注深度偽造（Deepfakes）等新興風險\cite{dfe2023genai}。
+
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{chapters/生成式AI對教育體系的衝擊/uk-dfe-genai-education.png}
+    \caption{英國教育部發布生成式 AI 教育政策文件，鼓勵教育者善用 AI 提升效率，同時要求學校重視資料保護、兒少安全與深偽等風險。資料來源：UK Department for Education\protect\cite{dfe2023genai}。}
+    \label{fig:uk-dfe-genai-education}
+\end{figure}
 
 至於美國，教育部教育技術辦公室於二〇二三年五月發布的 \textit{Artificial Intelligence and the Future of Teaching and Learning} 報告則將視角拉高至社會公平層面\cite{usedu2023ai}。該報告明確提出 AI 應「增強人類智能而非取代人類」，強調必須保持「人類在迴路（Human-in-the-loop）」的核心原則，並聚焦管理「演算法偏見」的風險，因為 AI 系統的開發過程可能導致模式偵測的偏差與自動化決策的不公，進而邊緣化弱勢群體\cite{usedu2023ai}。
 
