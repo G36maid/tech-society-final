@@ -58,6 +58,26 @@ jobs:
           path: ${{ env.PDF_NAME }}
           retention-days: 30
 
+      - name: Clean previous release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # If the release doesn't exist yet, nothing to clean
+          if ! gh release view latest-build >/dev/null 2>&1; then
+            echo "No previous latest-build release; skipping cleanup"
+            exit 0
+          fi
+
+          # Delete every attached asset except the auto-generated source archives
+          gh release view latest-build --json assets -q '.assets[].name' \
+            | while IFS= read -r name; do
+                case "$name" in
+                  "Source code.zip"|"Source code.tar.gz") continue ;;
+                esac
+                echo "Removing old asset: $name"
+                gh release delete-asset latest-build "$name" --yes
+              done
+
       - name: Create or update release
         uses: softprops/action-gh-release@v3
         with:
