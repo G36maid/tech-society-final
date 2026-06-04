@@ -62,3 +62,8 @@ main.pdf
 *.swo
 .DS_Store
 Thumbs.db
+
+# AGENTS/AI
+.antigravitycli
+.omo
+.claude
